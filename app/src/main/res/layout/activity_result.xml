@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".activity.result.ResultActivity"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:paddingTop="20dp"
+        app:srcCompat="@drawable/logo"
+        />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="15dp"
+        android:background="@drawable/background"
+        android:elevation="20dp"
+        android:orientation="vertical">
+
+        <TextView style="@style/txtitemview"
+            android:id="@+id/tv_logradouro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logradouro" />
+
+        <TextView style="@style/txtresview"
+            android:id="@+id/txt_logradouro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+         />
+
+        <TextView style="@style/txtitemview"
+            android:id="@+id/tv_cep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cep" />
+
+        <TextView style="@style/txtresview"
+            android:id="@+id/txt_cep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+         />
+
+        <TextView style="@style/txtitemview"
+            android:id="@+id/tv_complemento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/complemento" />
+
+        <TextView style="@style/txtresview"
+            android:id="@+id/txt_complemento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+         />
+
+        <TextView style="@style/txtitemview"
+            android:id="@+id/tv_bairro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bairro" />
+
+        <TextView style="@style/txtresview"
+            android:id="@+id/txt_bairro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+         />
+
+        <TextView style="@style/txtitemview"
+            android:id="@+id/tv_localidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/localidade" />
+
+        <TextView style="@style/txtresview"
+            android:id="@+id/txt_localidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+         />
+
+        <TextView style="@style/txtitemview"
+            android:id="@+id/tv_uf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uf" />
+
+        <TextView style="@style/txtresview"
+            android:id="@+id/txt_uf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />
+
+        <TextView style="@style/txtitemview"
+            android:id="@+id/tv_codmunicipio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/codmunicipio" />
+
+        <TextView style="@style/txtresview"
+            android:id="@+id/txt_codmunicipio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</LinearLayout>

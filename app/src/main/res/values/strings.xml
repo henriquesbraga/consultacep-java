@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Busca CEP</string>
+    <string name="insert_cep">Insira o  CEP</string>
+    <string name="logradouro">Logradouro: </string>
+    <string name="cep">CEP: </string>
+    <string name="complemento">Complemento: </string>
+    <string name="bairro">Bairro: </string>
+    <string name="localidade">Localidade: </string>
+    <string name="uf">UF: </string>
+    <string name="codmunicipio">Cód Município: </string>
+</resources>
